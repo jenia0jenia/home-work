@@ -111,22 +111,22 @@ function invokeAction({ action, id, name, email, phone }) {
 let params
 
 // -----
-params= {
+params = {
   action: 'list'
 }
 invokeAction(params)
 
 // -----
-params= {
+params = {
   action: 'get',
-  id: 5
+  id: 5,
 }
 invokeAction(params)
 
 // -----
-params= {
+params = {
   action: 'add',
-  id: 5
+  id: 5,
   name: 'Peter',
   email: 'peter@gmail.com',
   phone: '937-99-92'
@@ -134,9 +134,9 @@ params= {
 invokeAction(params)
 
 // -----
-params= {
+params = {
   action: 'remove',
-  id: 3
+  id: 3,
 }
 invokeAction(params)
 ```
