@@ -27,7 +27,7 @@ npm init
 let resultRead = readFileSync(contactsPath, 'utf-8')
 
 // ...
-writeFileSync(contactsPath)
+writeFileSync(contactsPath, newData)
 ```
 - Сделай экспорт созданных функций через `module.exports`
 
